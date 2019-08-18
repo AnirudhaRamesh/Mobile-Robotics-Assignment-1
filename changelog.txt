@@ -1,0 +1,2 @@
+9/8 - Include release date, fix typo
+14/8 - Fix indexing typo in load_points.py
