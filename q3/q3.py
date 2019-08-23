@@ -133,6 +133,6 @@ if __name__ == '__main__':
 	im_coord2[:,2] /= im_coord2[:,2]
 
 
-	plt.scatter([im_coord1[:,0]],[im_coord1[:,1]], s=120,marker='x',edgecolors='none', color ='r')
-	plt.scatter([im_coord2[:,0]],[im_coord2[:,1]], s=120,marker='x',edgecolors='none', color ='r')
+	#plt.scatter([im_coord1[:,0]],[im_coord1[:,1]], s=120,marker='x',edgecolors='none', color ='r')
+	#plt.scatter([im_coord2[:,0]],[im_coord2[:,1]], s=120,marker='x',edgecolors='none', color ='r')
 	plt.show()
