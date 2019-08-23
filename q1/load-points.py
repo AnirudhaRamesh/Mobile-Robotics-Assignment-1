@@ -37,8 +37,12 @@ if __name__ == '__main__':
     # final_im = im_coords[0,:]/im_coords[2,:]
     # p_c = np.matrix(im_coords[0,:]/im_coords[2,:],im_coords[1,:]/im_coords[2,:])
 
+    plt.gca().invert_yaxis()
     im = plt.imread("image.png")
     plt.imshow(im)
+    plt.xlim(-10, 1300)
+    plt.ylim(400, -10)
+
     # plt.gca().invert_yaxis()
 
     # plt.scatter(im_coords[:,0],im_coords[:,1], s=5, c = points[:,0], cmap=mpl.cm.get_cmap('nipy_spectral'))
